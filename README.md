@@ -69,6 +69,16 @@ Dime is a 100% free, open-source personal finance tracker built with iOS design 
 - ScrollViewStyle
 - STools
 
+## Sincronización de Correos
+
+FinTrack ahora permite importar automáticamente gastos desde tu bandeja de entrada.
+
+1. Ingresa tus credenciales IMAP o inicia sesión con Google.
+2. La aplicación revisará cada 15 minutos por nuevos correos de notificación bancaria.
+3. Los gastos detectados aparecerán marcados como importados desde correo.
+
+Para cuentas de Gmail es necesario generar un token OAuth con el alcance `https://mail.google.com/` y guardarlo en el llavero.
+
 ## Licence
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
